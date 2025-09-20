@@ -36,7 +36,7 @@ console.log(director1);
 
 // Task 3: printTeacher function and interface
 function printTeacher(firstName: string, lastName: string): string {
-  return `${firstName.charAt(0)}. ${lastName}`;
+  return `${firstName}. ${lastName}`;
 }
 
 interface printTeacherFunction {
